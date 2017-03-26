@@ -1,14 +1,13 @@
 {
-    "name": "wirebids/cakephp-upload",
-    "description": "CakePHP plugin to handle file uploading sans ridiculous automagic",
+    "name": "mickeyze/cakephp-upload",
+    "description": "CakePHP plugin 3",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "upload", "files", "behavior", "orm"],
-    "homepage": "https://github.com/wirebids/cakephp-upload",
+    "homepage": "https://github.com/mickeyze/cakephp-upload",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jose Diaz-Gonzalez",
-            "email": "cakephp+upload@josediazgonzalez.com"
+            "name": "mickeyze", 
         }
     ],
     "require": {
@@ -20,18 +19,20 @@
         "cakephp/cakephp": "~3.0",
         "phpunit/phpunit": "4.1.*",
         "league/flysystem-vfs": "*",
+        "imagine/imagine": "^0.6.3",
+        "aws/aws-sdk-php": "3.22.*",
         "cakephp/cakephp-codesniffer": "dev-master",
         "satooshi/php-coveralls": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "Wirebids\\Upload\\": "src",
-            "Wirebids\\Upload\\Test\\Fixture\\": "tests\\Fixture"
+            "mickeyze\\Upload\\": "src",
+            "mickeyze\\Upload\\Test\\Fixture\\": "tests\\Fixture"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Wirebids\\Upload\\Test\\": "tests"
+            "mickeyze\\Upload\\Test\\": "tests"
         }
     }
 }
