@@ -1,7 +1,7 @@
 {
-    "name": "mickeyze/cakephp-upload",
+    "name": "mickeyze/cakephp-upload-3",
     "description": "CakePHP plugin 3",
-    "type": "cakephp-plugin",
+    "type": "cakephp-plugin", 
     "keywords": ["cakephp", "upload", "files", "behavior", "orm"],
     "homepage": "https://github.com/mickeyze/cakephp-upload",
     "license": "MIT",
