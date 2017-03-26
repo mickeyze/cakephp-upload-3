@@ -14,6 +14,9 @@
         "cakephp/orm": "3.*",
         "php": ">=5.5",
         "league/flysystem": "*"
+        "league/flysystem-aws-s3-v3": "^1.0"
+        "imagine/imagine": "^0.6.3",
+        "aws/aws-sdk-php": "3.22.*",
     },
     "require-dev": {
         "cakephp/cakephp": "~3.0",
@@ -26,13 +29,13 @@
     },
     "autoload": {
         "psr-4": {
-            "mickeyze\\Upload\\": "src",
-            "mickeyze\\Upload\\Test\\Fixture\\": "tests\\Fixture"
+            "Wirebids\\Upload\\": "src",
+            "Wirebids\\Upload\\Test\\Fixture\\": "tests\\Fixture"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "mickeyze\\Upload\\Test\\": "tests"
+            "Wirebids\\Upload\\Test\\": "tests"
         }
     }
 }
